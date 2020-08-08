@@ -32,7 +32,7 @@ echo ${validBurnIn}
 
 onmt_train -data data-lite/${datadir}/data-pp/${datadir}\
   --save_model ${modelDir}/${datadir}/${datadir}\
-  --save_checkpoint_steps ${val_steps}\
+  --save_checkpoint_steps 3000000\
   --encoder_type brnn\
   --decoder_type rnn\
   --enc_layers 2\

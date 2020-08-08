@@ -1,8 +1,4 @@
 cd representation
-
-unzip -o -d ./ selectedUDT-v2.1.zip
-unzip -o -d ./ morfessor-models.zip
-
 sh format-bpe.sh 100 20
 sh format-bpe.sh 500 20
 sh format-bpe.sh 1000 20
