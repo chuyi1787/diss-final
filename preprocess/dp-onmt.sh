@@ -20,8 +20,8 @@ echo $type
   do
   echo ${lang}-${type}
 
-  mkdir -p $data-lite/${lang}-${type}/data-pp/
-  mkdir -p $data-full/${lang}-${type}/data-pp/
+  mkdir -p data-lite/${lang}-${type}-lite/data-pp/
+  mkdir -p data-full/${lang}-${type}/data-pp/
 
   echo "Starting dp"
   onmt_preprocess \
